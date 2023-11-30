@@ -24,7 +24,7 @@ news_template_id:
 last_time1: 
 last_time2: 
 ```
-然后在enrollment.py，push.py，reply.py文件中填写mysql数据库的账号、密码、数据库名称等信息，详情位置请自行查看代码。\
+然后在enrollment.py，push.py，reply.py文件中填写mysql数据库的账号、密码、数据库名称等信息，详情位置请自行查看代码。
 ## 运行
 ```bash
 nohup python3 -u main_run.py > main_run.log 2>&1 &
